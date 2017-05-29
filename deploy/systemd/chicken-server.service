@@ -1,0 +1,15 @@
+[Unit]
+Description=chicken-server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node app.js
+Restart=always
+User=node
+Group=node
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/srv/chicken-server
+
+[Install]
+WantedBy=multi-user.target
