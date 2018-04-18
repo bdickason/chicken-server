@@ -1,3 +1,4 @@
 [submodule "server/database/tekken-frame-data"]
 	path = server/database/tekken-frame-data
 	url = https://github.com/harounb/tekken-frame-data
+	branch = update-t7-framedata-from-rbnorway
