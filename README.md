@@ -18,6 +18,19 @@ DB_HOST(Optional, defaults to "localhost")
 DB_PORT(Optional, defaults to "3306")
 ```
 
+## Updating frame data
+
+*(Note: If you've never setup the server before, you'll need to `npm run init` first to initialize the db.*
+ 
+Frame data is pulled from a remote repository `harounb/tekken-frame-data` as a submodule. First we need to update the submodules:
+
+`git submodule update --recursive --remote`
+
+Next, you can run the update script to populate our db with the latest framedata:
+
+`npm run update`
+
+
 ## API Requests
 
 ### Metadata Request
