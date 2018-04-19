@@ -21,6 +21,8 @@
     "express": "^4.16.3",
     "mysql": "^2.15.0",
     "uuid": "^3.2.1"
+    "gfycat-sdk": "^1.4.13",
+    "node-fetch": "^2.1.2",
   },
   "devDependencies": {
     "mocha": "^3.5.3",
